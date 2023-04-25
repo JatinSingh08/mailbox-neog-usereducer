@@ -1,0 +1,102 @@
+:root {
+  --gray-color: #8395a7;
+  --font-md: 18px;
+  font-family: serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  text-align: center;
+}
+fieldset {
+  padding: 20px;
+}
+fieldset input {
+  margin-right: 5px;
+}
+fieldset label {
+  margin-right: 10px;
+}
+.layout {
+  display: flex;
+}
+.app {
+  display: flex;
+  padding: 20px;
+}
+.container {
+  padding: 20px 40px;
+  width: calc(100% - 150px);
+}
+
+.sidebar {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  margin-top: 15px;
+}
+.sidebar a {
+  padding:15px 10px;
+  color: var(--gray-color);
+  text-decoration: none;
+  font-size: var(--font-md);
+}
+.mailcard {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+  padding: 15px;
+}  
+.mail__header_btn {
+  display: flex;
+}
+.mailcard header h3 {
+  font-size: 21px;
+}
+.mailcard a {
+  text-decoration: none;
+  padding: 5px;
+}
+.mail__footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+}
+.mailcard header {
+  display: flex;
+  justify-content: space-between;
+}
+.mail__header button {
+  padding: 5px 10px;
+  background-color: #ffe3e3;
+  border: none;
+  border-radius: 5px;
+}
+.mail__content {
+  margin-top: 10px;
+}
+.mail__footer-right button{
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  border: 0.5px solid black;
+}
+.mail__footer a {
+  color: black;
+}
+.mailcard:hover {
+  background-color: rgb(189, 242, 246, 0.1);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.viewDetails_btn {
+  border: 0.5px solid black;
+  border-radius: 5px;
+  padding: 12px;
+}
